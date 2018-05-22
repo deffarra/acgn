@@ -1,0 +1,55 @@
+html,body,page{
+    height:100%;
+    width:100%;
+    margin: 0;
+}
+page{
+    font-size:60px;
+    animation:acgn 10s infinite;
+    position: absolute;
+    text-align:center;
+    padding-top:30%;
+}
+#ani{
+    background-color: green;
+    animation:a 10s infinite;
+}
+#man{
+    background-color: red;
+    animation:m 10s infinite;
+}
+#gam{
+    background-color: grey;
+    animation:g 10s infinite;
+}
+#nov{
+    background-color: blue;
+    animation:n 10s infinite;
+}
+@keyframes a {
+    0%{opacity:0}
+    20%{opacity: 100}
+    40%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes m {
+    0%{opacity:0}
+    20%{opacity: 0}
+    40%{opacity: 100}
+    60%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes g {
+    0%{opacity:0}
+    20%{opacity: 0}
+    60%{opacity: 100}
+    80%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes n {
+    0%{opacity:0}
+    20%{opacity: 0}
+    60%{opacity: 0}
+    80%{opacity: 100}
+    100%{opacity: 0}
+}
